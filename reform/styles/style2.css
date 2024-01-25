@@ -1,0 +1,685 @@
+@charset "utf-8";
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Serif JP', serif;
+    color: #333333;
+    background-color: #ffffff;   
+    letter-spacing: 0.1em;
+}
+.innerWrap {
+    width: 1366px;
+}
+.NotoSans { 
+    font-family: 'Noto Sans JP', sans-serif;   
+}
+header {
+    width: 1366px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between; 
+}
+.Logo {
+    width: 400px;
+    height: 32.85px;
+    margin-top: 24px;
+}
+nav {
+    margin-top:24px;
+    width: 629px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a {
+    font-weight: medium;
+    font-size: 16px;
+
+}
+nav ul li a:hover{
+    text-decoration: underline double;
+}
+main .Hero img {
+    width: 1366px;
+    height: 545px;
+    object-fit: cover;
+    margin-bottom: 160px;
+}
+h2 {
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.Subtitle {
+    height: 16px;
+    margin: 0 auto 48px;
+    color:  #223E69;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.Subtitle::before,
+.Subtitle::after {
+    content: "" ;
+    border-bottom: 1px solid #223E69;
+    width: 60.5px;
+}
+.Subtitle::before {
+    margin-right: 10px;
+    padding-left: 15px;
+}
+.Subtitle::after {
+    margin-left: 10px;
+    padding-right: 15px;
+}
+h3 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+.Consept {
+    width: 1020px;
+    height: 238px;
+    margin: 0 auto 160px;
+}
+h2, h3, .Subtitle {
+    text-align: center;
+}
+.Introduction {
+    width: 1020px;
+    font-size: 16px;
+}
+.List {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:160px;
+}
+.List li {
+    width: 300px;
+    height: 351px;
+}
+.List li img {
+    margin-bottom: 16px;
+}
+h4 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.More {
+    text-align: end;
+}
+.More::after {
+    content: url(../images/arrow.png);
+}
+div {
+    margin-bottom: 16px;
+}
+.Red {
+    color: #B71B26;
+    text-align: center;
+}
+.Red::before,
+.Red::after {
+    content: "" ;
+    border-bottom: 1px solid #B71B26;
+    width: 60.5px;
+}
+.Flow {
+    background-color :rgba(34,62,105,0.05);
+    height: 498px;
+    margin-bottom: 48px; 
+}  
+.Flow h2 {
+    padding-top: 48px;
+    z-index: 100;
+}
+ .FlowList { 
+    display: flex;
+    justify-content: space-between;
+    width: 920px;
+    height: 280px;
+    margin: 0 auto;
+ }
+.FlowList li {
+    color: #ffffff;
+    background-color: #333333;
+    font-size: 28px;
+    width: 60px;
+    height: 280px;
+    border-radius: 60px;
+    padding-right:16px;
+    padding-left: 16px;
+    writing-mode: vertical-rl;
+    text-align: center;     
+}
+.Arrow {
+    width: 30px;
+    height: 60px;
+    margin: auto;
+}
+.Arrow60 {
+    filter: opacity(60%);
+
+}
+.Arrow70 {
+    filter: opacity(70%);
+}
+.Arrow80 {
+    filter: opacity(80%);
+}
+.Arrow90 {
+    filter: opacity(90%);
+}
+.QandA {
+    width: 1020px;
+    margin: 160px 173px;
+}
+.QA {
+    margin-bottom: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 30px;
+}
+dt {
+    width: 6%;
+  }
+  
+  dd {
+    width: 94%;
+  }
+.Q, .A {
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    font-family: Noto serif JP;
+}
+.Q {
+    border: 1px solid #333333;
+    border-radius:52px;
+    background-color: #333333;
+    padding-left: 10%;
+    padding-top: 4%;
+}
+.A { 
+    border: 1px solid #B71B26;
+    border-radius: 52px;
+    background-color: #B71B26; 
+    padding-left: 10%;
+    padding-top: 4%;
+}
+.Contact {
+    width:100%;
+    height: 1218px;
+    background-color:rgba(34,62,105,0.15);
+}
+.Contact h2 {
+    padding-top:48px;
+}
+.Contact .Subtitle {
+    color: #333333;
+}
+.Contact .Subtitle::before,
+.Contact .Subtitle::after {
+    content: "" ;
+    border-bottom: 1px solid #333333;
+    width: 60.5px;
+}
+.Required {
+    border: 1px solid #B71B26;
+    background-color: #B71B26;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 58px;
+    height: 24px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 12px;
+}
+form {
+    width: 1020px;
+    height: 1000px;
+    margin: 0 173px;
+    background-color:rgba(255,255,255,0.5);
+    padding: 48px 24px 48px 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+th {
+    text-align: right;
+}
+input[type="radio"],
+.Name, 
+input[type="tel"],
+input[type="email"]{
+    margin-bottom: 24px;
+}
+.PostalCode, .Address {
+    margin-bottom: 24px;
+}
+textarea {
+    margin-bottom: 48px;
+}
+label {
+    position: relative;
+}
+input[type="radio"] {
+    appearance: none;
+    background-color: #ffffff;
+    border-radius: 50px;
+    vertical-align: top; 
+    width: 24px;
+    height: 24px;
+}
+input[type=radio]:checked::before {
+    content: "●";
+    width: 10px;
+    height: 10px;
+    vertical-align: bottom;
+}
+
+.RadioBtn label {
+    margin-right: 40px; 
+    font-weight: normal;
+}
+.Name,
+input[type="tel"] {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    height: 52px;
+    width: 332px;
+}
+.PostalCode {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 222px;
+    height: 52px;
+}
+.Address,
+input[type="email"] {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 100%;
+    height: 52px;
+}
+textarea {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    height: 208px;
+    width: 664px;
+}
+input[type="submit"] {
+    border: 1px solid #333333;
+    background-color: #333333;
+    font-family:  'Noto Serif JP',serif;
+    color: #ffffff;
+    width: 300px;
+    height: 68px;
+    margin: 0 360px;
+    text-align: center;
+}
+input[type="submit"]:hover {
+    background-color: rgba(255,255,255,0.9);
+    margin-top: 20px;
+    color:#333333;
+    transition-property: background-color,margin-top,color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 100ms;
+}
+.submitBtn {
+    text-align: center;
+}
+.submitBtn {
+    position: relative;
+}
+.submitBtn::before {
+    content: "";
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border-top: solid 7px transparent;
+    border-bottom: solid 7px transparent;
+    border-left: solid 7px #ffffff;
+    border-right: solid 7px transparent;
+    position: absolute;
+    top: 27px;
+    left: 610px;
+}
+.PageTop {
+    position: relative;
+    bottom: -219.54px;
+    left: 1292px;
+    border-color: #333333;
+    background-color: #333333;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PageTopArrow {
+    width: 30px;
+    height: 30px;
+    border-top: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    transform: rotate(-45deg);
+    margin-top: 30px;
+    
+}
+
+footer {
+    width: 1366px;
+    height: 62px;
+    background-color: #333333;
+    font-size: 14px;
+    color: #ffffff; 
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    margin-top: 219px; 
+}
+
+@media screen and (min-width:768px) {
+    #menuBtn {
+      display:none;
+    }
+  }
+@media screen and (max-width: 768px) {
+    .gMenu {
+        position: fixed;
+        right: 0;
+        top: 25px;
+        width: 100%;
+        z-index: 99;
+        margin-top: -2px;
+      }
+      .Menu {
+        display: block;
+        height: 532px;
+      }
+      .gMenu .menuIcon {
+        cursor: pointer;
+        position: absolute;
+        left: 333px;
+      }
+      .gMenu .menuIcon .Navicon {
+        background: #B71B26;
+        display: block;
+        height: 2px;
+        width: 31px;
+        position: relative;
+        transition: background .4s ease-out;
+      }
+      .gMenu .menuIcon .Navicon::before,
+      .gMenu .menuIcon .Navicon::after {
+        background: #B71B26; 
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .4s ease-out;
+        width: 100%;
+      }
+      .gMenu .menuIcon .Navicon::before {top: 10px;} 
+      .gMenu .menuIcon .Navicon::after {top: -10px;}
+
+      .gMenu .Menu {
+        background-color:rgba(255,255,255,0.9);
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height .4s; 
+        text-align: center;
+      }
+
+      .gMenu .Menu li:first-of-type {
+        padding-top: 16px;
+      }
+      .gMenu .Menu li a {
+        display: block;
+        padding: 24px 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      .gMenu .Menu li a:hover {
+        background-color:transparent;
+      }
+
+      .gMenu .menuBtn {
+        display: none;
+      }
+
+      .gMenu .menuBtn:checked ~ .Menu {
+        max-height: 532px; 
+        width: 375px;
+        transition: max-height .6s;
+      }
+      .gMenu .menuBtn:checked ~ .menuIcon .Navicon {background: transparent;}
+
+      .gMenu .menuBtn:checked ~ .menuIcon .Navicon::before {transform: rotate(-45deg);top: 0;}
+      .gMenu .menuBtn:checked ~ .menuIcon .Navicon::after {transform: rotate(45deg);top: 0;}
+      .gMenu .menuIcon {
+        top: 3px;
+      }
+      .gMenu .menuIcon .Navicon,
+      .gMenu .menuIcon .Navicon::before,
+      .gMenu .menuIcon .Navicon::after {
+        background: #B71B26;
+      }
+
+    main .Hero img,
+    .Logo img,
+    .innerWrap, .Consept,
+    .FlowList, .QandA,
+    .QA, .Contact, 
+    form, table,
+    input, textarea,
+    .submitBtn,
+    footer {
+        width: 100%;
+    }
+    .Logo {
+        width: 240px;
+        margin-top: 16px;  
+    }
+    main .Hero img {
+        height: 480px;
+        object-fit: cover;
+        margin-bottom: 48px;
+    } 
+    h2 {
+        font-size: 28px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .Contact h2 {
+        padding-top: 0;
+    }
+    .Consept {
+        margin-bottom: 80px;
+    }
+    .Flow h2 {
+        padding-top: 16px;
+    }
+    .Subtitle {
+        width:63%;
+        font-size: 12px;
+        margin-bottom: 24px;
+    }
+    .Subtitle::before,
+    .Subtitle::after {
+    content: "" ;
+    width: 20%;
+    }
+    h3 {
+        font-size:20px;
+        margin-bottom: 16px;
+    }
+    .Introduction {
+        font-size: 14px;
+        width: 351px;
+        margin: 0 auto 80px;
+        line-height: 28px;
+    }
+    .List {
+        display: block;
+        margin:0 12px 80px;
+    }
+    .List li {
+        margin:0 auto 48px;
+    }
+    .List li img ,
+    .Description,
+    .More {
+        width: 351px;
+        margin-left: -24px;
+    }
+    .List li img {
+        margin-bottom: 8px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .Description {
+        font-size: 14px;
+        height: 42px;
+    }
+    .More {
+        font-size: 14px;
+    }
+    .Frow {
+        width: 100%;
+        height: 456px;
+    }
+    .FlowList {
+        display: block;
+        margin: 0 auto;
+        width: 300.5px;
+        height: 352px;
+    }
+    .FlowList li {
+        width: 300px;
+        height: 32px;
+        
+        text-align: center;
+        writing-mode:horizontal-tb;
+    }
+    .FlowList li p {
+        font-size: 16px;
+        padding: 8px;
+    }
+    .Arrow {
+        margin: 0 134px;
+    }
+
+    .FlowList img {
+        width: 16px;
+        height: 32px;
+        transform: rotate(90deg); 
+    }  
+    .QandA {
+        margin: 80px 12px;    
+    } 
+    .Q, .A {
+        width: 36px;
+        height: 36px;
+        font-size: 20px;
+    }
+    .QA {
+        font-size: 16px;
+    }
+    .QA dt {
+        width:13%;
+    }
+    .QA dd {
+        width: 80%;
+        margin-bottom: 16px;
+    }
+    .Contact {
+        height: 912px;
+        padding-top: 16px;
+    }
+    form {
+        height: 832px;
+        padding: 0 12px;
+        font-size: 16px;
+        background-color:transparent; 
+        margin: 0;   
+    }
+    table {
+        text-align: center;
+    }
+    td {
+        display: block;
+    }
+    th {
+        display: inline-block; 
+    }
+    th div {
+        margin-bottom: 8px;
+    }
+    .RadioBtn {
+        text-align: center;
+    }
+    .Contact div {
+        font-size: 10px;
+        height: 16px;
+        width: 40px;
+    }
+    .Name,
+    input[type="tel"],
+    input[type="email"],
+    .Address {
+        height: 30px;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .PostalCode {
+        width: 125px;
+        height: 30px;
+        margin-bottom: 8px; 
+        margin-right: 207px;
+        
+    }
+    .Address {
+        margin-bottom: 8px;
+    }
+    textarea {
+        height: 120px;
+        width: 100%;
+        margin-bottom: 24px;
+        margin-top: 8px;
+    }
+    input[type="submit"]{
+        width: 200px;
+        height: 48px;
+        font-size: 16px;
+        margin: 0 87.5px;
+    }
+    .PageTop { 
+        width: 46px;
+        height: 46px;
+        position: relative;
+        left: 85%;
+        top: 81px;
+    }
+    .PageTopArrow {
+        width: 24px;
+        height: 24px;
+        margin-top: 30px;
+    }
+    footer {
+        margin-top: 80px;
+    }
+}
